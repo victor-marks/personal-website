@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Info</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <nav class="navbar navbar-light bg-light navbar-expand-lg">
+        <a class="navbar-brand" href="#">V</a>
+        <a class="navbar-brand" href="#">M</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="content">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</head>
+
+<body>
+    <br>
+    <div id="contact">
+        <ul>
+            <li>email: vjmarks@gmail.com</li>
+            <li>phone: 408-507-2347</li>
+        </ul>
+    </div>
+
+    <br>
+    
+    <form action="#">
+            <div>
+                <label for="username">Username</label>
+                <input type="text" id="username">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+            <div>
+                <label>What is your favorite sport?</label>
+                <label for="football">Football</label>
+                <input type="radio" name="favorite_sport" id="football">
+                <label for="basketball">Basketball</label>
+                <input type="radio" name="favorite_sport" id="basketball">
+                <label for="hockey">Hockey</label>
+                <input type="radio" name="favorite_sport" id="hockey">
+                <label for="baseball">Baseball</label>
+                <input type="radio" name="favorite_sport" id="baseball">
+            </div>
+            <div>
+                <label>Favorite TV Show(s)</label>
+                <label for="wire">The Wire</label>
+                <input type="checkbox" name="favorite_show" value="The Wire" id="wire">
+                <label for="breaking_bad">Breaking Bad</label>
+                <input type="checkbox" name="favorite_show" value="Breaking Bad" id="breaking_bad">
+                <label for="GoT">Game Of Thrones</label>
+                <input type="checkbox" name="favorite_show" value="Game of Thrones" id="G_o_T">
+                <label for="go">24</label>
+                <input type="checkbox" name="favorite_show" value="24" id="24">
+            </div>
+            <div>
+                <label>Why are you even here?</label>
+                <textarea name="" id="" cols="40" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="">
+            </div>
+        </form>
+</body>
+
+</html>

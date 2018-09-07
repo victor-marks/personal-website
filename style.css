@@ -1,0 +1,62 @@
+body {
+  background-color: green;
+}
+
+a {
+  background-color: #139CFF;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  display: inline-block;
+  font-family: helvetica;
+  transition: background-color .5s, color .5s linear, border-radius 3s ease-out;
+}
+  
+a:hover {
+  background-color: #35EC5C;
+  color: black;
+  border-radius: 40px;
+}
+
+#container {
+  font-size: 16px;
+}
+.main_heading {
+  background-color: grey;    
+}
+.main {
+  background-color: blue;
+}
+.main_footer {
+  background-color: green;
+}
+.main_header, 
+.main_footer {
+color: red;
+}
+
+a[href="#"] {
+  background:blue;
+}
+
+#home {
+  color: rgb(71, 142, 151);
+  font-size: 12px; 
+  text-align: center;
+  font-family: helvetica, sans-serif; 
+  letter-spacing: -1px;
+  text-transform: lowercase;
+  text-shadow: 0 2px 0 black;
+  line-height: 1.4;
+  font-variant: small-caps;
+}
+
+#contact {
+  width: 400px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  border: 20px solid black;
+  text-align: center;
+}
